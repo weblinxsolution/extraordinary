@@ -1,0 +1,1583 @@
+/* POPPINS FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* POPPINS FONT */
+
+/* WORK SANS FONT */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* WORK SANS FONT */
+
+/* SPACE MANO FONT */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* SPACE MANO FONT */
+
+/* INTER FONT */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* INTER FONT */
+
+@font-face {
+  font-family: 'clash-regular';
+  src: url('../public/templates/fonts/ClashDisplay-Regular.otf');
+}
+
+@font-face {
+  font-family: 'clash-medium';
+  src: url('../public/templates/fonts/ClashDisplay-Medium.otf');
+}
+
+@font-face {
+  font-family: 'clash-bold';
+  src: url('../public/templates/fonts/ClashDisplay-Bold.otf');
+}
+
+@font-face {
+  font-family: 'clash-Extralight';
+  src: url('../public/templates/fonts/ClashDisplay-Extralight.otff');
+}
+
+@font-face {
+  font-family: 'clash-Light';
+  src: url('../public/templates/fonts/ClashDisplay-Light.otf');
+}
+
+@font-face {
+  font-family: 'clash-Semibold';
+  src: url('../public/templates/fonts/ClashDisplay-Semibold.otf');
+}
+
+.clash-regular {
+  font-family: 'clash-regular';
+}
+
+.clash-medium {
+  font-family: 'clash-medium';
+}
+
+.clash-bold {
+  font-family: 'clash-bold';
+}
+
+.clash-Extralight {
+  font-family: 'clash-Extralight';
+}
+
+.clash-Light {
+  font-family: 'clash-Light';
+}
+
+.clash-Semibold {
+  font-family: 'clash-Semibold';
+}
+
+.work-sans {
+  font-family: 'Work Sans';
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+  background-color: #141414;
+  min-height: max-content !important;
+}
+
+#root {
+  width: 100%;
+  text-align: center;
+}
+
+
+@media(min-width: 1527.27px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1420px;
+  }
+}
+
+.navbar {
+  position: relative;
+  z-index: 10;
+}
+
+.navbar-expand {
+  position: relative;
+  z-index: 10;
+}
+
+.navbar-nav a {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.text-grey {
+  color: #C8C8C8 !important;
+}
+
+.text-grey2 {
+  color: #858584;
+}
+
+.text-grey3 {
+  color: #727288;
+}
+
+.w-mxc {
+  width: max-content;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.connect-btn button {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  width: 150px;
+}
+
+.theme-btn {
+  background: #DA0116;
+  border-color: #DA0116;
+  border-radius: 60px;
+  padding: 8px 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: small;
+  font-weight: 500;
+}
+
+.theme-btn:hover {
+  border-color: #990615;
+  background: #990615;
+}
+
+.theme-btn:focus {
+  border-color: #990615;
+  background: #990615;
+  box-shadow: none;
+}
+
+.theme-btn:checked+.btn,
+.theme-btn.active,
+.theme-btn.show,
+.theme-btn:first-child:active,
+:not(.theme-btn)+.theme-btn:active {
+  background-color: #990615;
+  border-color: #990615;
+}
+
+.theme-btn:focus-visible {
+  border-color: #990615;
+  background: #990615;
+  box-shadow: none;
+}
+
+.theme-btn-white {
+  background: transparent;
+  border-color: #FFF;
+  border-radius: 60px;
+  padding: 8px 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: small;
+  font-weight: 500;
+}
+
+.theme-btn-white:hover {
+  border-color: #FFF;
+  background: #FFF;
+  color: #141414 !important;
+}
+
+.theme-btn-white:focus {
+  border-color: #FFF;
+  background: #FFF;
+  box-shadow: none;
+  color: #141414;
+}
+
+.theme-btn-white:checked+.btn,
+.theme-btn-white.active,
+.theme-btn-white.show,
+.theme-btn-white:first-child:active,
+:not(.theme-btn-white)+.theme-btn-white:active {
+  background-color: #FFF;
+  border-color: #FFF;
+  color: #141414;
+}
+
+.theme-btn-white:focus-visible {
+  border-color: #FFF;
+  background: #FFF;
+  box-shadow: none;
+  color: #141414;
+}
+
+#basic-navbar-nav {
+  padding: 30px 0px;
+}
+
+#basic-navbar-nav a {
+  color: #fff;
+}
+
+.logo {
+  width: 90px;
+}
+
+/* Banner Start */
+.banner-section {
+  overflow: hidden;
+}
+
+.banner-img {
+  margin-top: -5%;
+  width: 118%;
+  position: relative;
+  z-index: 0;
+}
+
+.banner-content {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  z-index: 10;
+  padding: 13% 0px;
+}
+
+.banner-star {
+  position: absolute;
+  top: 25%;
+  right: 7%;
+  width: 33%;
+  z-index: -1;
+}
+
+.banner-content h1 {
+  text-align: start;
+  line-height: 60.5px;
+  font-size: 80px;
+}
+
+.extra-ordinary-text {
+  background: linear-gradient(90deg, #EA6969 0%, #EACCF8 48.00%, #970000 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  text-transform: capitalize;
+}
+
+.banner-shadow {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 35%;
+  z-index: 1;
+}
+
+.text-red {
+  background: linear-gradient(270deg, #DC0000 0%, #FF7676 48.96%, #DB0000 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'clash-Semibold';
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  text-transform: capitalize;
+}
+
+.counter-div {
+  border-radius: 60px;
+  border: 1px solid #FFF;
+  opacity: 0.9;
+  display: flex;
+  align-items: center;
+  color: #FFF;
+  width: 140px;
+  justify-content: space-between;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.counter-div .dsc,
+.inc {
+  text-align: center;
+  width: 35px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .4s all;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.dsc {
+  border-right: 1px solid #FFF;
+}
+
+.inc {
+  border-left: 1px solid #FFF;
+}
+
+.dsc:hover {
+  color: #09080A;
+  background-color: #FFF;
+}
+
+.inc:hover {
+  color: #09080A;
+  background-color: #FFF;
+}
+
+.table-section {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 10;
+}
+
+.bitcoin-table {
+  border-radius: 10px;
+  border: 1px solid #585858;
+  background: rgba(36, 36, 36, 0.50);
+}
+
+.bit-table tr th {
+  color: #FFF;
+  text-align: end;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  padding-bottom: 35px;
+}
+
+.bit-table tr td {
+  color: #FFF;
+  text-align: end;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  padding-bottom: 35px;
+}
+
+.rampp-minting-container {
+  position: absolute;
+  top: 73%;
+  left: 6.5%;
+  z-index: 100;
+  gap: 30px;
+  transform: scale(0.9);
+  flex-direction: row !important;
+  align-items: center;
+}
+
+.rampp-minting-container button {
+  background-color: #DA0116 !important;
+  width: max-content !important;
+  min-width: 140px;
+  height: 45px !important;
+}
+
+.rampp-mint-quantity {
+  /* position: absolute; */
+  /* top: 34%; */
+  /* left: 0%; */
+  width: 100px !important;
+  padding: 6px;
+  background-color: transparent;
+  border-color: #FFF !important;
+  color: #FFF !important;
+  margin-left: 20px;
+}
+
+#rampp-claim-counter-d6e2d7e4-2d3d-4f78-b90c-07d7a7ad49e5 {
+  position: absolute;
+  left: 0%;
+  bottom: -41%;
+  font-size: 17px !important;
+}
+
+.buy-crypto-form-submit {
+  background: #230000 !important;
+}
+
+/* Banner End */
+
+/* NFT Start */
+section.nft-section {
+  padding-top: 0% !important;
+  padding: 5% 0px;
+  position: relative;
+  z-index: 1;
+}
+
+.nft-row {
+  gap: 35px;
+}
+
+.nft-box {
+  border-radius: 20px;
+  border: 1px solid #363636;
+  background: rgba(31, 31, 31, 0.50);
+  backdrop-filter: blur(50px);
+  width: 23%;
+  padding: 15px;
+  position: relative;
+}
+
+.nft-content {
+  margin-top: 15px;
+}
+
+.nft-content h5 {
+  color: #FFF;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+}
+
+.nft-content p {
+  font-family: 'Poppins', sans-serif;
+}
+
+.nft-count {
+  border-radius: 20px;
+  background: #2B2B2B;
+  color: #858584;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-family: 'Space Mono', monospace;
+}
+
+.nft-card-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 62%;
+}
+
+.nft-card-shadow2 {
+  position: absolute;
+  top: -4%;
+  right: 0;
+  z-index: -1;
+  width: 57%;
+}
+
+/* NFT End */
+
+/* Stacking Start */
+section.stacking {
+  position: relative;
+  z-index: 10;
+}
+
+@media(min-width:px) {
+  .nft-form-box {
+    width: 80%;
+    margin: auto !important;
+  }
+}
+
+.nft-form-box {
+  border-radius: 10px;
+  border: 1px solid #585858;
+  background: rgba(36, 36, 36, 0.50);
+  margin-top: 12% !important;
+  margin: 20px;
+  padding: 20px;
+  visibility: hidden;
+}
+
+#rampp-claim-counter-40517a26-91e5-4284-8248-b8425f7b5b47 {
+  position: absolute;
+  bottom: -40%;
+  left: 0%;
+  font-size: 18px !important;
+}
+
+iframe {
+  position: absolute;
+  transform: translateY(83%) scale(.9);
+  left: 36%;
+  z-index: 10;
+}
+
+#maincontainer {
+  position: absolute;
+  z-index: 100;
+  transform: translateY(490%) scale(.9);
+  bottom: 0;
+  left: 2%;
+  text-align: center;
+}
+
+#connectBtn {
+  color: #FFF;
+  font-size: large;
+}
+
+#claimbtn {
+  width: 200px !important;
+  font-size: large;
+}
+
+#maincontainer button {
+  font-size: large;
+  color: #FFF;
+  width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#connect-button {
+  width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.nft-box-form {
+  width: 40%;
+}
+
+.nft-box4 {
+  width: 30%;
+}
+
+.toggle-button {
+  border-radius: 50px;
+  border: 1px solid #5E5E5E;
+  background: #2E2E2E;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.toggle-button button {
+  background-color: transparent;
+  width: 95px;
+  border-radius: 50px;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  font-weight: 700;
+}
+
+.toggle-button button:hover {
+  background-color: #FFF;
+  color: #09080A;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700 !important;
+}
+
+.toggle-button button:active {
+  background-color: #FFF !important;
+  color: #09080A !important;
+}
+
+.active-toggle {
+  background-color: #FFF !important;
+  color: #09080A !important;
+}
+
+.nft-input {
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  border: 1px solid #626262;
+  background: #2C2C2C;
+  padding: 6px;
+}
+
+.nft-input .nft-st {
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  background: #E1E1E8;
+  padding: 0px 10px;
+  gap: 3px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.nft-input input {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  font-size: larger;
+  color: #FFF;
+  font-family: 'Poppins', sans-serif;
+  padding: 0px 10px;
+}
+
+.nft-input input:focus {
+  outline: none;
+}
+
+.nft-input-group label {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #FFF;
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+
+.stack-cards {
+  padding: 20px;
+  border: 1px solid #FFF;
+  border-radius: 8px;
+}
+
+.coin-box {
+  border-radius: 20px;
+  border: 1px solid #363636;
+  background: rgba(31, 31, 31, 0.50);
+  backdrop-filter: blur(50px);
+  overflow: hidden;
+
+}
+
+.coin-box-img {
+  width: 100%;
+}
+
+.coin-box-img img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+#connect-button {
+  position: absolute;
+  top: 4%;
+  right: 4%;
+  z-index: 100;
+  background-color: #DA0116;
+  color: #FFF;
+  font-size: small;
+}
+
+#connect-button:hover {
+  outline: 0px;
+  border-color: transparent;
+}
+
+/* Stacking End */
+
+
+/* Footer Start */
+section.footer-section {
+  padding-top: 10rem;
+  background: linear-gradient(180deg, #141414 0%, #230000 100%);
+}
+
+.newsletter h2 {
+  font-size: 48px;
+}
+
+.newsletter p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.newsletter-box {
+  border-radius: 116.732px;
+  background: #D9D9D9;
+  backdrop-filter: blur(5.83659029006958px);
+  width: 45%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding: 4px;
+}
+
+.newsletter-box input {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  padding-left: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.newsletter-box input:focus {
+  outline: none;
+}
+
+.hr-break {
+  margin: 4.5rem 0px;
+}
+
+.footer-p {
+  color: #FFF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 206%;
+  text-transform: capitalize;
+}
+
+.footer-links {
+  text-align: start;
+}
+
+.footer-links ul {
+  padding: 0px;
+  list-style-type: none;
+  margin-top: 40px;
+}
+
+.footer-links ul li {
+  margin-bottom: 20px;
+}
+
+.footer-links ul li a {
+  color: #FFF;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.eQhYAZ {
+  z-index: 100000 !important;
+  background-color: #09080A !important;
+}
+
+#preloader .circ1 {
+  background: #FFF !important;
+}
+
+#preloader .circ2 {
+  background: #FFF !important;
+}
+
+#preloader .circ3 {
+  background: #FFF !important;
+}
+
+#preloader .circ4 {
+  background: #FFF !important;
+}
+
+/* Footer End */
+
+
+/* Responsive Screens */
+@media(max-width:1920px) and (max-height:1080px) {
+  .rampp-minting-container {
+    top: 64%;
+    left: 12.5%;
+  }
+
+  iframe {
+    position: absolute;
+    transform: translateY(83%) scale(.9);
+    left: 40%;
+    z-index: 10;
+  }
+
+  #maincontainer {
+    position: absolute;
+    transform: translateY(500%) scale(.9);
+    bottom: 0;
+    left: 13%;
+  }
+}
+
+@media(max-width:1680px) and (max-height:901px) {
+  .rampp-minting-container {
+    top: 76%;
+    left: 6.9%;
+  }
+
+  iframe {
+    transform: translateY(83%) scale(.9);
+    left: 38%;
+  }
+
+  #maincontainer {
+    transform: translateY(535%) scale(.9);
+    bottom: 0;
+    left: 6.9%;
+  }
+}
+
+@media(max-width:1600px) and (max-height:900px) {
+  .rampp-minting-container {
+    position: absolute;
+    top: 76%;
+    left: 5.5%;
+  }
+
+  iframe {
+    transform: translateY(83%) scale(.9);
+    left: 38%;
+  }
+
+  #maincontainer {
+    transform: translateY(535%) scale(.9);
+    left: 6%;
+  }
+}
+
+@media(max-width:1600px) and (max-height:751px) {
+  .rampp-minting-container {
+    position: absolute;
+    top: 90%;
+    left: 5.4%;
+  }
+
+  #maincontainer {
+    transform: translateY(560%) scale(.9);
+    left: 6%;
+  }
+}
+
+@media(max-width:1527.27px) {
+  #connect-button {
+    position: absolute;
+    top: 5%;
+    right: 3%;
+  }
+
+  #maincontainer {
+    transform: translateY(500%) scale(.9);
+    left: 3%;
+  }
+
+  .banner-img {
+    width: 105%;
+  }
+
+  .rampp-minting-container {
+    position: absolute;
+    top: 77%;
+    left: 2.5%;
+  }
+
+  .banner-star {
+    top: 21%;
+    right: 7%;
+    width: 30%;
+  }
+}
+
+@media(max-width:1536px) and (max-height:864px) {
+  .rampp-minting-container {
+    top: 78%;
+    left: 3.4%;
+  }
+
+  iframe {
+    transform: translateY(83%) scale(.9);
+    left: 38%;
+  }
+
+  #maincontainer {
+    transform: translateY(542%) scale(.9);
+    left: 4%;
+  }
+}
+
+@media(max-width:1366px) and (max-height:786px) {
+  iframe {
+    left: 35%;
+  }
+}
+
+@media(max-width:1440px) and (max-height:900px) {
+  .rampp-minting-container {
+    position: absolute;
+    top: 65%;
+    left: 3.5%;
+  }
+
+  iframe {
+    transform: translateY(83%) scale(.9);
+    left: 36%;
+  }
+
+  #maincontainer {
+    transform: translateY(515%) scale(.9);
+    left: 3%;
+  }
+}
+
+@media(max-width:1344px) {
+  #maincontainer {
+    transform: translateY(474%) scale(.9);
+    left: 8%;
+  }
+}
+
+@media(max-width:1400px) {
+  #maincontainer {
+    transform: translateY(498%) scale(.8);
+    left: 2%;
+  }
+}
+
+@media(max-width:1366px) and (max-height:768px) {
+  .rampp-minting-container {
+    position: absolute;
+    top: 67%;
+    left: 5.1%;
+    transform: scale(0.7);
+  }
+
+  #maincontainer {
+    transform: translateY(503%) scale(.9);
+    left: 8%;
+  }
+}
+
+@media(max-width:1366px) {
+  /* .rampp-minting-container {
+    position: absolute;
+    top: 65%;
+    left: 6.5%;
+  } */
+
+
+  iframe {
+    position: absolute;
+    transform: translateY(70%) scale(.9);
+  }
+}
+
+@media(max-width:1344px) {
+  .rampp-minting-container {
+    position: absolute;
+    top: 72%;
+    left: 6.2%;
+  }
+}
+
+@media(max-width:1400px) {
+  .nft-box-form h2 {
+    font-size: 27px !important;
+  }
+
+  .bit-table tr td {
+    font-size: 10px;
+  }
+
+  .bit-table tr td {
+    font-size: 10px;
+  }
+
+  .bit-table tr td img {
+    width: 25px !important;
+  }
+
+  .banner-star {
+    top: 19%;
+    right: 2%;
+  }
+
+  .nft-row {
+    gap: 30px;
+  }
+
+  .banner-content h1 {
+    line-height: 50.5px;
+    font-size: 68px;
+  }
+}
+
+@media(max-width:1280px) and (max-height:720px) {
+  .rampp-minting-container {
+    position: absolute;
+    top: 71%;
+    left: 1.8%;
+  }
+
+  iframe {
+    transform: translateY(83%) scale(.9);
+    left: 35.0%;
+  }
+
+  #maincontainer {
+    transform: translateY(520%) scale(.9);
+    left: 6%;
+  }
+}
+
+@media(max-width:1200px) {
+  .btn-1 {
+    width: max-content;
+    margin: auto;
+  }
+
+  .btn-1 button {
+    width: 40% !important;
+    padding: 10px 30px;
+    min-width: max-content;
+  }
+
+  #maincontainer {
+    transform: translateY(500%) scale(.9);
+    left: 8%;
+  }
+}
+
+@media(max-width:1120px) {
+  iframe {
+    transform: translateY(56%) scale(0.7);
+    left: 33%;
+  }
+
+  #maincontainer {
+    transform: translateY(490%) scale(.9);
+    left: 8%;
+  }
+
+  #connect-button {
+    position: absolute;
+    top: 7%;
+  }
+
+  .rampp-minting-container {
+    top: 82%;
+    left: 5.5%;
+  }
+
+  .banner-content h1 {
+    font-size: 60px;
+  }
+
+  .nft-row {
+    gap: 20px;
+  }
+
+  .nft-card-shadow {
+    z-index: -2;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .nft-card-shadow {
+    width: 100%;
+  }
+
+  .container {
+    width: 95%;
+  }
+
+  .banner-star {
+    top: 12%;
+    right: -6%;
+  }
+}
+
+@media(max-width:991px) {
+  #rampp-content-wrapper-40517a26-91e5-4284-8248-b8425f7b5b47 {
+    width: 100% !important;
+  }
+
+  #connect-button {
+    top: 5%;
+    right: 40%;
+  }
+
+  .rampp-minting-container {
+    width: 100% !important;
+    flex-wrap: wrap !important;
+  }
+
+  .rampp-minting-container {
+    flex-direction: column !important;
+  }
+
+  #rampp-content-wrapper-d6e2d7e4-2d3d-4f78-b90c-07d7a7ad49e5 {
+    width: 100% !important;
+    flex-wrap: wrap;
+  }
+
+  .rampp-mint-quantity {
+    width: 100px !important;
+    margin-top: 5px;
+    margin-left: 0px !important;
+  }
+
+  .rampp-minting-container {
+    gap: 0px;
+  }
+
+  section.nft-card {
+    padding-top: 45% !important;
+  }
+
+  .rampp-minting-container {
+    top: 60%;
+    left: 0.5%;
+  }
+
+  #rampp-claim-counter-d6e2d7e4-2d3d-4f78-b90c-07d7a7ad49e5 {
+    position: absolute;
+    left: 0%;
+    bottom: -16%;
+  }
+
+  .rampp-mint-quantity {
+    position: absolute;
+    top: -55%;
+    width: 100% !important;
+  }
+
+  #rampp-claim-counter-40517a26-91e5-4284-8248-b8425f7b5b47 {
+    position: absolute;
+    bottom: -28%;
+  }
+
+  .section.stacking {
+    height: 100vh;
+  }
+
+  #maincontainer {
+    transform: translateY(590%) scale(.9);
+    left: 8%;
+  }
+
+  .rampp-minting-container {
+    top: 66%;
+    left: 0.5%;
+  }
+
+  .rampp-minting-container button {
+    width: 200px !important;
+    min-width: 100%;
+  }
+
+  section.stacking {
+    background-size: 70% !important;
+  }
+
+  .toggle-button button {
+    font-size: small;
+    width: 80px;
+  }
+
+  .banner-img {
+    display: none;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+    border: none;
+  }
+
+  .navbar-nav {
+    text-align: start;
+  }
+
+  .connect-btn {
+    margin-right: auto;
+  }
+
+  #basic-navbar-nav a {
+    color: #fff;
+    font-size: 18px !important;
+  }
+
+  .connect-btn button {
+    font-size: 28px;
+    margin-top: 23px;
+    padding: 10px 25px;
+  }
+
+  .banner-content {
+    padding: 6% 0px;
+  }
+
+  .nft-row {
+    gap: 15px;
+  }
+
+  .nft-box {
+    width: 31%;
+  }
+
+  .banner-content h1 {
+    width: max-content;
+  }
+
+  .banner-star {
+    top: -4%;
+    right: -5%;
+    width: 41%;
+  }
+
+  .connect-btn button {
+    width: 100%;
+  }
+
+  .bitcoin-table {
+    width: 1400px;
+  }
+
+  .table-section .container {
+    overflow-x: scroll;
+  }
+
+  .nft-box4 {
+    display: none;
+  }
+
+  .nft-box-form {
+    width: 60%;
+  }
+
+  .nft-box-form h2 {
+    font-size: 27px;
+  }
+}
+
+@media(max-width:766px) {
+  iframe {
+    transform: translateY(180%) scale(0.8);
+    left: -2%;
+  }
+
+  .head-container {
+    flex-direction: inherit;
+  }
+
+  #maincontainer {
+    transform: translateY(575%) scale(.9);
+    left: 4%;
+  }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    background: #09080a66;
+    z-index: 100;
+    width: 100%;
+  }
+
+  .rampp-minting-container button {
+    height: max-content !important;
+  }
+
+  .banner-content {
+    margin-top: 6rem;
+  }
+
+
+  #connect-button {
+    z-index: 200;
+  }
+
+  #connect-button {
+    top: 5%;
+    right: 33%;
+  }
+
+  .container {
+    width: 100% !important;
+    max-width: 93%;
+  }
+
+  .nft-form-box {
+    margin: 0px;
+  }
+
+  .nft-box-form {
+    width: 100%;
+  }
+
+  .nft-box {
+    width: 45%;
+  }
+
+  .nft-row {
+    justify-content: center !important;
+  }
+
+  .nft-row {
+    gap: 18px;
+  }
+
+  .footer-links {
+    text-align: start;
+  }
+
+  .nft-row-footer {
+    gap: 3rem;
+  }
+
+  .newsletter-box {
+    width: 80%;
+  }
+
+  section.footer-section {
+    padding-top: 3rem;
+  }
+
+  .newsletter h2 {
+    font-size: 30px;
+  }
+
+  .banner-content h1 {
+    font-size: 40px;
+    line-height: 40.5px;
+  }
+
+  #basic-navbar-nav a {
+    color: #fff;
+    font-size: 21px;
+  }
+
+  .navbar-nav {
+    text-align: start;
+    gap: 15px !important;
+  }
+
+  .connect-btn button {
+    font-size: 14px !important;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  .nft-content p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+  }
+
+
+
+  section.nft-section {
+    padding-top: 7%;
+    padding-bottom: 0%;
+  }
+
+  .hr-break {
+    margin: 2.5rem 0px;
+  }
+
+  .nft-content {
+    margin-top: 0px;
+  }
+
+  .nft-section .w-mxc p {
+    font-size: large !important;
+  }
+}
+
+@media(max-width:500px) {
+  .rampp-minting-container {
+    top: 69%;
+    left: 0.5%;
+  }
+}
+
+@media (max-width: 428px) and (max-height: 926px) {
+  .rampp-minting-container {
+    top: 50%;
+    left: 0.5%;
+  }
+
+  .nft-section .w-mxc p {
+    font-size: 13px !important;
+  }
+
+  iframe {
+    transform: translateY(88%) scale(0.8);
+    left: 3%;
+  }
+
+  #maincontainer {
+    transform: translateY(460%) scale(.9);
+    left: 4%;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 812px) {
+  iframe {
+    transform: translateY(170%) scale(0.8);
+    left: -4%;
+  }
+
+  #maincontainer {
+    transform: translateY(597%) scale(.9);
+    left: 4%;
+  }
+}
+
+@media (max-width: 390px) and (max-height: 844px) {
+  .rampp-minting-container {
+    top: 57%;
+    left: 0.5%;
+  }
+
+  iframe {
+    transform: translateY(88%) scale(0.8);
+    left: -1%;
+  }
+
+  #maincontainer {
+    transform: translateY(452%) scale(.9);
+    left: 4%;
+  }
+}
+
+@media (max-width: 414px) and (max-height: 896px) {
+  iframe {
+    transform: translateY(88%) scale(0.8);
+    left: 2%;
+  }
+
+  #maincontainer {
+    transform: translateY(444%) scale(.9);
+    left: 4%;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 812px) {
+  iframe {
+    transform: translateY(174%) scale(0.8);
+    left: -4%;
+  }
+
+  #maincontainer {
+    transform: translateY(601%) scale(.9);
+    left: 4%;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .rampp-minting-container {
+    top: 66%;
+  }
+
+  #maincontainer {
+    transform: translateY(616%) scale(.9);
+    left: 4%;
+  }
+}
+
+@media(max-width:384px) and (max-height:854px) {
+  iframe {
+    transform: translateY(82%) scale(0.8);
+    left: -1%;
+  }
+
+  #maincontainer {
+    transform: translateY(451%) scale(.9);
+    left: 4%;
+  }
+
+  .rampp-minting-container {
+    top: 56%;
+    left: 0.5%;
+  }
+}
+
+@media(max-width:412px) and (max-height:915px) {
+  .rampp-minting-container {
+    top: 53%;
+    left: 0.5%;
+  }
+
+  iframe {
+    transform: translateY(88%) scale(0.8);
+    left: 2%;
+  }
+
+  #maincontainer {
+    transform: translateY(445%) scale(.9);
+    left: 4%;
+  }
+}
+
+@media(max-width:360px) and (max-height:915px) {
+  #maincontainer {
+    transform: translateY(605%) scale(.9);
+    left: 4%;
+  }
+
+  iframe {
+    transform: translateY(180%) scale(0.8);
+    left: -5%;
+  }
+}
+
+
+
+@media(max-width:800px) {
+  #connect-button {
+    top: 5%;
+    right: 28%;
+  }
+
+  section.nft-card {
+    padding-top: 55% !important;
+  }
+
+  #rampp-claim-counter-40517a26-91e5-4284-8248-b8425f7b5b47 {
+    left: 30%;
+    bottom: -28%;
+  }
+
+  .nft-row {
+    gap: 15px;
+  }
+
+  .nft-box {
+    width: 100%;
+  }
+
+  .banner-content h1 {
+    font-size: 35px;
+    line-height: 35.5px;
+  }
+
+  .bannerp {
+    font-size: 13px;
+  }
+
+  .nft-section .w-mxc p {
+    font-size: 13px !important;
+  }
+
+  .newsletter p {
+    font-size: 13px;
+    margin: 0px !important;
+  }
+
+  .banner-star {
+    top: -4%;
+    right: -5%;
+    width: 44%;
+  }
+}
